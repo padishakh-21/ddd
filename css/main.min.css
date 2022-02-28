@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/livvic-v11-latin-regular.woff2') format('woff2'), url('../fonts/livvic-v11-latin-regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/livvic-v11-latin-600.woff2') format('woff2'), url('../fonts/livvic-v11-latin-600.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/livvic-v11-latin-700.woff2') format('woff2'), url('../fonts/livvic-v11-latin-700.woff') format('woff')
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic'
+}
+
+.container {
+    max-width: 1440px;
+    height: 1002px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(../images/about.png)
+}
+
+.about-heading {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    width: 920px;
+    height: 48px;
+    padding-top: 140px;
+    padding-left: 420px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff
+}
+
+.about-section {
+    background: #004047;
+    position: relative
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px
+}
+
+.about-list {
+    width: 1110px;
+    height: 610px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 165px;
+    position: relative
+}
+
+.about-item {
+    width: 350px;
+    height: 253px;
+    list-style-type: none;
+    background: #012f34;
+    margin-top: 40px;
+    position: relative
+}
+
+.meet-director-about {
+    height: 253px;
+    width: 350px;
+    overflow: hidden;
+    position: relative
+}
+
+.meet-director-about:hover .experience {
+    bottom: 0;
+    -webkit-transition: ease 2s;
+    -o-transition: ease 2s;
+    transition: ease 2s
+}
+
+.director-image {
+    position: relative;
+    top: 32px;
+    left: 127px
+}
+
+.director-names {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79c8c7;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px
+}
+
+.experience {
+    width: 350px;
+    height: 253px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #002529;
+    position: absolute;
+    bottom: -253px
+}
+
+.director-names-heading {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79c8c7;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px
+}
+
+q {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+    left: 72px;
+    top: 10px
+}
+
+.workplace {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0
+}
+
+.plus-character {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #f67e7e;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    top: 225px;
+    left: 147px
+}
+
+.plus-character p {
+    width: 19px;
+    height: 19px;
+    font-size: 35px;
+    color: #012f34;
+    position: absolute;
+    margin: 0;
+    left: 17px;
+    top: 9px
+}
+
+.plus-character:hover {
+    background: #79c8c7;
+    padding-left: 5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.plus-character p :hover {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 10px
+}
+
+.path-img {
+    position: relative;
+    top: 50px;
+    right: 48px
+}
+
+.linkedin-img {
+    position: relative;
+    top: 50px;
+    right: 35px
+}
